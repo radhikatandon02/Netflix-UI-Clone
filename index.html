@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Netflix India - Watch TV Shows Online, Watch Movies Online</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  <link rel="icon" type="image/x-icon" href="images/Nlogo.png">
+  <script src="main.js"></script>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="navbar_netflix">
+        <img src="images/netflix_logo.png" alt="This is the Netflix Logo" class="netflix_logo">
+      </div>
+      <div class="navbar_nav_items">
+        <div class="nav_item">
+          <div class="dropdown_container">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+              style="position: relative; right: 7px; top: 3px; left: 2px;" class="bi bi-globe" viewBox="0 0 16 16">
+              <path
+                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472M3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933M8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4z" />
+            </svg>
+            <select name="language" id="languageSelect" class="language_drop_down">
+              <option value="english" selected>English</option>
+              <option value="hindi">Hindi</option>
+            </select>
+          </div>
+        </div>
+        <div class="nav_item">
+          <button class="signin_button">Sign In</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero_bg_img_cont">
+        <img src="images/netflix_bg.jpg" alt="Netflix Main Section Background" class="hero_bg_img" />
+      </div>
+      <div class="hero_bg_overlay"></div>
+      <div class="hero_card">
+        <h1 class="hero_title">
+          Unlimited movies, TV shows and more
+        </h1>
+        <h2 class="hero_subtitle">
+          Watch anywhere. Cancel anytime.
+        </h2>
+        <p class="hero_desc">
+          <nobr>Ready to watch? Enter your email to create or restart your membership.</nobr>
+          <nobr>
+            <input type="email" placeholder="Email Address" class="email">
+            <button class="get_started">Get
+              Started ></button>
+          </nobr>
+        </p>
+      </div>
+    </section>
+    <section class="style-cards">
+      <div class="card-1">
+        <div class="desc-1">
+          <h1>Enjoy on your TV</h1>
+          <h3>Watch on smart TVs, PlayStation, Xbox,<br> Chromecast, Apple TV, Blu-ray players and<br> more.</h3>
+        </div>
+        <img src="images/tv.png" alt="Netflix TV">
+        <video class="video-1" autoplay="" playsinline="" muted="" loop="" <source src="images/1.m4v"
+          type="video/mp4">></video>
+      </div>
+      <div class="card-2">
+        <img src="images/mobile.jpg" alt="Netflix Mobile">
+        <div class="desc-2">
+          <h1>Download your shows to watch offline</h1>
+          <h3>Save your favourites easily and always have something to watch.</h3>
+        </div>
+      </div>
+      <div class="card-3">
+        <div class="desc-3">
+          <h1>Watch everywhere</h1>
+          <h3>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</h3>
+        </div>
+        <img src="images/pc.png" alt="Netflix PC" />
+        <video class="video-2" autoplay="" playsinline="" muted="" loop="" <source src="images/2.m4v"
+          type="video/mp4">></video>
+      </div>
+      <div class="card-4">
+        <img src="images/kids.png" alt="Netflix Kids">
+        <div class="desc-4">
+          <h1>Create profiles for kids</h1>
+          <h3>Send children on adventures with their favourite characters in a space made just for them—free with your
+            membership.</h3>
+        </div>
+      </div>
+    </section>
+    <section class="faq">
+      <h1>Frequently Asked Questions</h1>
+      <div class="faq-box">
+        <span>What is Netflix?</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-plus-lg"
+          viewBox="0 1 15 15">
+          <path fill-rule="evenodd"
+            d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2" />
+        </svg>
+      </div>
+      <div class="faq-box">
+        <span>How much does Netflix cost?</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-plus-lg"
+          viewBox="0 1 15 15">
+          <path fill-rule="evenodd"
+            d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2" />
+        </svg>
+      </div>
+      <div class="faq-box">
+        <span>Where can I watch?</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-plus-lg"
+          viewBox="0 1 15 15">
+          <path fill-rule="evenodd"
+            d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2" />
+        </svg>
+      </div>
+      <div class="faq-box">
+        <span>How do I cancel?</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-plus-lg"
+          viewBox="0 1 15 15">
+          <path fill-rule="evenodd"
+            d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2" />
+        </svg>
+      </div>
+      <div class="faq-box">
+        <span>What can I watch on Netflix?</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-plus-lg"
+          viewBox="0 1 15 15">
+          <path fill-rule="evenodd"
+            d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2" />
+        </svg>
+      </div>
+      <div class="faq-box">
+        <span>Is Netflix good for kids?</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-plus-lg"
+          viewBox="0 1 15 15">
+          <path fill-rule="evenodd"
+            d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2" />
+        </svg>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <p>Questions? Call <a href="">000-800-919-1694</a></p>
+    <div class="footer-cols">
+      <ul>
+        <li><a href="https://help.netflix.com/en/node/412">FAQ</a></li>
+        <li><a href="https://ir.netflix.net/ir-overview/profile/default.aspx">Investor Relations</a></li>
+        <li><a href="https://help.netflix.com/legal/privacy">Privacy</a></li>
+        <li><a href="https://fast.com/">Speed Test</a></li>
+      </ul>
+      <ul>
+        <li><a href="https://help.netflix.com/en/">Help Centre</a></li>
+        <li><a href="https://jobs.netflix.com/">Jobs</a></li>
+        <li><a href="">Cookie Preferences</a></li>
+        <li><a href="https://help.netflix.com/legal/notices">Legal Notices</a></li>
+      </ul>
+      <ul>
+        <li><a href="https://www.netflix.com/in/login?nextpage=https%3A%2F%2Fwww.netflix.com%2Fyouraccount">Account</a>
+        </li>
+        <li><a href="Only on Netflix">Ways to Watch</a></li>
+        <li><a href="https://help.netflix.com/legal/corpinfo">Corporate Information</a></li>
+        <li><a href="https://www.netflix.com/in/browse/genre/839338">Only on Netflix</a></li>
+      </ul>
+      <ul>
+        <li><a href="https://media.netflix.com/en/">Media Centre</a></li>
+        <li><a href="https://help.netflix.com/legal/termsofuse">Terms of Use</a></li>
+        <li><a href="https://help.netflix.com/en/contactus">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <p class="netflix-india">Netflix India</p>
+  </footer>
+</body>
+
+</html>
